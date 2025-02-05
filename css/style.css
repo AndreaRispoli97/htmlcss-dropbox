@@ -22,6 +22,7 @@ button{
     background-color: #0061ff;
     color: #ffffff;
     padding:10px 15px;
+    border: none;
 }
 /* HEADER */
 .container-header{
@@ -58,6 +59,39 @@ header ul{
 /* FINE HEADER */
 
 /* MAIN */
+
+.container-immagine{
+    background-color: #b4d0e6;
+    height: 740px;
+    width: 100%;
+    display: flex;
+    padding:105px 340px 0px 340px;
+}
+
+.container-testo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:20px;
+    padding: 50px 0px;
+    width: 380px;
+    height: 400px;
+}
+
+div > h1 {
+    font-size: 60px;
+    font-weight:bold;
+}
+
+span > p {
+font-size:20px;
+}
+
+.big-arrow{
+    font-size:45px;
+    padding-top:75px;
+}
+
 /* FINE MAIN */
 
 /* FOOTER */
