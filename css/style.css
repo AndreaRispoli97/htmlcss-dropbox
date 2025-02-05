@@ -69,6 +69,12 @@ header ul{
     position:relative;
 }
 
+.container-tabella{
+    display: flex;
+    width: 80%;
+    padding: 180px;
+}
+
 .container-testo{
     display: flex;
     flex-direction: column;
@@ -81,6 +87,11 @@ header ul{
 
 div > h1 {
     font-size: 60px;
+    font-weight:bold;
+}
+
+section > h2 {
+    font-size: 50px;
     font-weight:bold;
 }
 
@@ -100,7 +111,46 @@ jumbotron {
     right: 10px;
     top: 295px;
 }
+
+
 /* FINE MAIN */
 
 /* FOOTER */
+footer{
+    background-color: #000000;
+}
+
+footer .conteiner{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section > ul{
+    background-color: #000000;
+    flex-grow: 1;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    padding:0px 40px;
+
+}
+
+.section-footer{
+    display: flex;
+    height: 70%;
+
+}
+
+.lista{
+    padding-top:15px;
+  
+  }
+
+  .capolista{
+    size: 20px;
+    padding-bottom:15px;
+  }
+
 /* FINE FOOTER */
