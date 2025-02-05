@@ -4,7 +4,61 @@
     box-sizing: border-box;
 }
 
-
-body{
-    background-color: aqua;
+/* Regole */
+img{
+    max-height: 100%;
+    display:block;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+button{
+    background-color: #0061ff;
+    color: #ffffff;
+    padding:10px 15px;
+}
+/* HEADER */
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+
+header{
+    background-color: #ffffff;
+    height: 80px;
+    width: 100%;
+}
+
+
+ header a{
+    text-decoration-line: none;
+    color: #000000;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+}
+
+header ul{
+ display: flex;
+ gap:30px;
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+/* FINE MAIN */
+
+/* FOOTER */
+/* FINE FOOTER */
