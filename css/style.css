@@ -66,6 +66,7 @@ header ul{
     width: 100%;
     display: flex;
     padding:105px 340px 0px 340px;
+    position:relative;
 }
 
 .container-testo{
@@ -92,6 +93,13 @@ font-size:20px;
     padding-top:75px;
 }
 
+jumbotron {
+    position:absolute;
+    height: 460px;
+    right:430px;
+    right: 10px;
+    top: 295px;
+}
 /* FINE MAIN */
 
 /* FOOTER */
