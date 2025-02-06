@@ -171,10 +171,29 @@ header ul{
 
 .second-section{
     padding: 200px 0px 160px 0px;
+    display: flex;
 }
 
 .img-partner{
-    width: 30%;
+    height: 30%;
+    width: auto;
+}
+
+.text-partner {
+    padding: 50px;
+    width: 70%;
+}
+
+.p1{
+    padding:10px 0px 30px 0px;
+}
+
+.btn-white{
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    
+    padding:10px;
 }
 
 .lastbox{
