@@ -118,6 +118,24 @@ header ul{
     border:1px solid #d1d1d3;
 }
 
+.big-tab{
+    width: 100%;
+    border:1px solid #d1d1d3;
+
+}
+
+.right-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .articolo{
     padding:20px;
     display: flex;
