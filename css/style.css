@@ -57,7 +57,7 @@ header ul{
 /* FINE HEADER */
 
 /* MAIN */
-
+/* JUMBOTRON */
 .container {
     width: 1190px;
     margin: 0 auto;
@@ -99,6 +99,34 @@ header ul{
  padding-top: 70px;
     font-size:40px;
 }
+
+/* TABELLA */
+
+#container-tabella{
+    width: 1000px;
+    margin: 0 auto;
+}
+#container-tabella .container-tab{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    width: calc ((100%-150px) / 3);
+
+}
+.container-tabella h1{
+    font-size:30px;
+    padding-bottom:70px;
+}
+
+.intestazione{
+    text-align: center;
+    border: 1px solid #d1d1d3;
+    padding:12px 0px;
+}
+.Prezzo{
+    font-weight: bold;
+}
+
 /* FINE MAIN */
 
 /* FOOTER */
