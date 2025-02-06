@@ -112,10 +112,12 @@ header ul{
     gap:50px;
 
 }
+
 .container-tab2{
     display: flex;
     flex-wrap: wrap;
     gap:45px;
+    padding-bottom:200px;
 
 }
 
@@ -131,7 +133,7 @@ header ul{
 }
 
 .small-tab{
-    width: calc((100% - 270px) / 6);
+    width: calc((100% - 180px) / 3);
     border:none;
 }
 
@@ -175,24 +177,36 @@ header ul{
     width: 30%;
 }
 
+.lastbox{
+    margin:0 auto;
+    font-size: larger;
+    padding-bottom:100px;
 
+}
+
+.specialone{
+    text-decoration-line: underline;
+    color: #0061ff;
+}
 
 /* FINE MAIN */
 
 /* FOOTER */
 footer{
     background-color: #000000;
+    margin-top:100px;
+    border-left:#ffffff 3px solid;
 }
 
-footer .conteiner{
-    height: 500px;
+footer .container{
+    width: 1210px;
+    padding-top:150px ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 section > ul{
-    background-color: #000000;
     flex-grow: 1;
     display: flex;
     color: #ffffff;
@@ -202,19 +216,32 @@ section > ul{
 }
 
 .section-footer{
-    display: flex;
-    height: 70%;
-
+    padding-bottom:100px;
 }
 
 .lista{
     padding-top:15px;
+    font-size:10px;
   
   }
 
   .capolista{
     size: 20px;
     padding-bottom:15px;
+    font-size: 25px;
+    font-size:x-large;
   }
+
+  .btn-black{
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding:10px 15px;
+    border: none;
+}
+
+.Lingua{
+
+}
 
 /* FINE FOOTER */
