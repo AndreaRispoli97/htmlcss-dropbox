@@ -5,113 +5,85 @@
 }
 
 /* Regole */
+body{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}
+
 img{
-    max-height: 100%;
+    height: 100%;
     display:block;
 }
 
 ul{
-    list-style: none;
+    list-style-type: none;
 }
 
 a{
     text-decoration-line: none;
 }
 
-button{
+.btn-blue{
+    display: inline-block;
     background-color: #0061ff;
     color: #ffffff;
     padding:10px 15px;
     border: none;
 }
+.btn-blue:hover {
+    filter: brightness(1.4);
+}
 /* HEADER */
-.container-header{
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0px 20px;
+    padding: 20px;
 }
 
-header{
-    background-color: #ffffff;
-    height: 80px;
-    width: 100%;
-}
 
 
  header a{
-    text-decoration-line: none;
     color: #000000;
 }
 
-header div{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 40px;
-}
 
 header ul{
  display: flex;
- gap:30px;
+ gap:40px;
+ align-items:center;
 }
 
 /* FINE HEADER */
 
 /* MAIN */
 
-.container-immagine{
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+#jumbotron {
     background-color: #b4d0e6;
-    height: 740px;
-    width: 100%;
+
+}
+
+#jumbotron .jumbotron-info{
     display: flex;
-    padding:105px 340px 0px 340px;
+}
+
+#jumbotron .jumboleft{
+    width: 30%;
+}
+
+#jumbotron .jumboright{
+    width: 70%;
+}
+
+#jumbotron .container{
     position:relative;
+    bottom: -100%;
 }
-
-.container-tabella{
-    display: flex;
-    width: 80%;
-    padding: 180px;
-}
-
-.container-testo{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    gap:20px;
-    padding: 50px 0px;
-    width: 380px;
-    height: 400px;
-}
-
-div > h1 {
-    font-size: 60px;
-    font-weight:bold;
-}
-
-section > h2 {
-    font-size: 50px;
-    font-weight:bold;
-}
-
-span > p {
-font-size:20px;
-}
-
-.big-arrow{
-    font-size:45px;
-    padding-top:75px;
-}
-
-jumbotron {
-    position:absolute;
-    height: 460px;
-    right:430px;
-    right: 10px;
-    top: 295px;
-}
-
 
 /* FINE MAIN */
 
