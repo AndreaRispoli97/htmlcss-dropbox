@@ -11,7 +11,7 @@ body{
 }
 
 img{
-    height: 100%;
+    width: 100%;
     display:block;
 }
 
@@ -58,14 +58,15 @@ header ul{
 
 /* MAIN */
 
-.container{
+.container {
     width: 1190px;
     margin: 0 auto;
 }
 
 #jumbotron {
     background-color: #b4d0e6;
-
+    margin-bottom: 150px;
+    
 }
 
 #jumbotron .jumbotron-info{
@@ -82,9 +83,22 @@ header ul{
 
 #jumbotron .container{
     position:relative;
-    bottom: -100%;
+    bottom: -100px;
 }
 
+.jumboleftext{
+    padding:30px 0px;
+}
+
+.container h1{
+    font-size:55px;
+    padding-bottom: 30px;
+}
+
+.fa-arrow-down{
+ padding-top: 70px;
+    font-size:40px;
+}
 /* FINE MAIN */
 
 /* FOOTER */
