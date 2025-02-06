@@ -112,6 +112,12 @@ header ul{
     gap:50px;
 
 }
+.container-tab2{
+    display: flex;
+    flex-wrap: wrap;
+    gap:45px;
+
+}
 
 .little-tab{
     width: calc((100% - 150px) / 3);
@@ -122,6 +128,11 @@ header ul{
     width: 100%;
     border:1px solid #d1d1d3;
 
+}
+
+.small-tab{
+    width: calc((100% - 270px) / 6);
+    border:none;
 }
 
 .right-text{
@@ -155,6 +166,16 @@ header ul{
 .Prezzo{
     font-weight: bold;
 }
+
+.second-section{
+    padding: 200px 0px 160px 0px;
+}
+
+.img-partner{
+    width: 30%;
+}
+
+
 
 /* FINE MAIN */
 
